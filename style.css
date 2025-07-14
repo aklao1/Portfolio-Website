@@ -103,16 +103,16 @@ img.pic{
 }
 
 .image-hover {
-  width: 150px; /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
-  background-image: url("img/card-back.png"); /* Your default image */
-  background-size: cover; /* Ensures the image covers the container */
+  width: 150px; 
+  height: 200px; 
+  background-image: url("img/card-back.png"); 
+  background-size: cover; 
   border-radius: 15px;
   transition: transform .2s ease-in-out;
 }
 
 .image-hover:hover {
-  background-image: url("img/card-front.png"); /* Your hover image */
+  background-image: url("img/card-front.png"); 
   transform: rotateY(180deg);
   border-radius: 15px;
 }
