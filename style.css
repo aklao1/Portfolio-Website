@@ -96,6 +96,27 @@ img.pic{
   padding: 5px 30px 5px 30px;
 }
 
+#projects-section{
+  background-color: #34325F;
+  color: white;
+  padding: 5px 20px 30px 20px;
+}
+
+.image-hover {
+  width: 150px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  background-image: url("img/card-back.png"); /* Your default image */
+  background-size: cover; /* Ensures the image covers the container */
+  border-radius: 15px;
+  transition: transform .2s ease-in-out;
+}
+
+.image-hover:hover {
+  background-image: url("img/card-front.png"); /* Your hover image */
+  transform: rotateY(180deg);
+  border-radius: 15px;
+}
+
 #illustrations-section{
   background-color: ##070739;
   color: #E1E099;
