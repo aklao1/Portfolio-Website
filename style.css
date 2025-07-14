@@ -168,7 +168,8 @@ img.pic{
 #mission-target,
 #skills-target,
 #illustrations-target,
-#contact-target {
+#contact-target,
+#projects-target {
   position: relative;
   top: -80px;
 }
